@@ -1,8 +1,8 @@
 public class Motor implements Cloneable {
     private String cilindrada;
-    private String potencia;
+    private int potencia;
 
-    public Motor(String cilindrada, String potencia) {
+    public Motor(String cilindrada, int potencia) {
         super();
         this.cilindrada = cilindrada;
         this.potencia = potencia;
@@ -16,11 +16,11 @@ public class Motor implements Cloneable {
         this.cilindrada = cilindrada;
     }
 
-    public String getPotencia() {
+    public int getPotencia() {
         return potencia;
     }
 
-    public void setPotencia(String potencia) {
+    public void setPotencia(int potencia) {
         this.potencia = potencia;
     }
 
