@@ -13,10 +13,10 @@ class CarroTest {
 
         Carro carroClone = carro.clone();
         carroClone.setAno(1998);
-        carroClone.setModelo("FordBronco");
+        carroClone.setModelo("Ford Bronco");
         carroClone.getMotor().setCilindrada("2300cc");
 
         assertEquals("Carro{ano=1997, modelo='Ford Ranger', motor=Motor{cilindrada='2200cc', potencia='150cv'}, marca='Ford'}", carro.toString());
-        assertEquals("Carro{ano=1998, modelo='Ford Ranger', motor=Motor{cilindrada='2300cc', potencia='150cv'}, marca='Ford'}", carroClone.toString());
+        assertEquals("Carro{ano=1998, modelo='Ford Bronco', motor=Motor{cilindrada='2300cc', potencia='150cv'}, marca='Ford'}", carroClone.toString());
     }
 }
