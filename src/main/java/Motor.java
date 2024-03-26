@@ -1,6 +1,3 @@
-package org.example;
-
-
 public class Motor implements Cloneable {
     private String cilindrada;
     private String potencia;

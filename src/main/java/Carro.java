@@ -1,5 +1,3 @@
-import org.example.Motor;
-
 public class Carro implements Cloneable {
     private int ano;
     private String modelo;
